@@ -1,0 +1,2 @@
+var t=document.querySelectorAll(".navigation-btn"),e=document.querySelector(".imgs-slides"),i=function(i){var n=document.querySelector(".slide").offsetWidth;e.style.marginLeft="-".concat(i*n,"px"),t.forEach(function(t,e){e===i?t.classList.add("active"):t.classList.remove("active")})};t.forEach(function(t){t.addEventListener("click",function(){i(parseInt(t.getAttribute("data-slide")))})}),window.addEventListener("load",function(){i(0),t[0].classList.add("active")});
+//# sourceMappingURL=index.8f4765e5.js.map
